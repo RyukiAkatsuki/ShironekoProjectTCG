@@ -5,17 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:snptcgapp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="700" Width="1200"
+        Title="MainWindow" 
+        Height="700" 
+        Width="1200"
         WindowStyle="None"
         AllowsTransparency="True"
         WindowStartupLocation="CenterScreen">
-    
-    
+
+
     <Grid Background="#23262B">
+
+        <TextBlock Text="© Colopl - All right reserved" 
+                   Foreground="#525965"
+                   FontSize="10"
+                   VerticalAlignment="Bottom"
+                   HorizontalAlignment="Right"
+                   Margin="0,0,15,10"/>
+
         <StackPanel Background="#2E333A"
                     Width="220"
                     Orientation="Vertical"
                     HorizontalAlignment="Left">
+
             <Grid Height="200"
                   VerticalAlignment="Top"
                   Margin="0,20,0,0">
@@ -26,16 +37,28 @@
                   Margin="0,20,0,0">
 
                 <Menu.ItemsPanel>
-                    
+
                     <ItemsPanelTemplate>
-                        
+
                         <VirtualizingStackPanel Orientation="Vertical" />
-                        
+
                     </ItemsPanelTemplate>
-                    
+
                 </Menu.ItemsPanel>
+
+                <MenuItem Header="Home">
+
+                    <MenuItem.Icon>
+
+                        <Image Source="Assets/icons8-home-50.png" 
+                               />
+
+                    </MenuItem.Icon>
+
+                </MenuItem>
+
             </Menu>
-           
+
         </StackPanel>
     </Grid>
 </Window>
