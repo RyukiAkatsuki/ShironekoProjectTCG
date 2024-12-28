@@ -59,14 +59,34 @@
                         </MenuItem>
                         <MenuItem Header="Structure Deck">
                             <MenuItem Header="真夏のDreamer">
-                                <MenuItem Header="01" />
-                                <MenuItem Header="02" />
+                                <MenuItem Header="01">
+                                    <MenuItem.Icon>
+                                        <Image Source="Assets/DeckLogo/sd01.png" />
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                                <MenuItem Header="02">
+                                    <MenuItem.Icon>
+                                        <Image Source="Assets/DeckLogo/sd02.png" />
+                                    </MenuItem.Icon>
+                                </MenuItem>
                             </MenuItem>
                             <MenuItem Header="Others">
-                                <MenuItem Header="Doki Doki Sweet Halloween" />
-                                <MenuItem Header="Petit Paradise" />
+                                <MenuItem Header="Doki Doki Sweet Halloween">
+                                    <MenuItem.Icon>
+                                        <Image Source="Assets/DeckLogo/sd03.png" />
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                                <MenuItem Header="Petit Paradise">
+                                    <MenuItem.Icon>
+                                        <Image Source="Assets/DeckLogo/sd04.png" />
+                                    </MenuItem.Icon>
+                                </MenuItem>
                             </MenuItem>
-                            <MenuItem Header="The Black Impact" />
+                            <MenuItem Header="The Black Impact">
+                                <MenuItem.Icon>
+                                    <Image Source="Assets/DeckLogo/sd05.png" />
+                                </MenuItem.Icon>
+                            </MenuItem>
                         </MenuItem>
                     </MenuItem>
                     <MenuItem Header="Boosters">
