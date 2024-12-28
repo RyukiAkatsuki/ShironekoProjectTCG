@@ -106,7 +106,29 @@
     <Folder Include="Fonts\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\icons8-home-50.png" />
+    <Resource Include="Assets\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\dictionary.png" />
+    <Resource Include="Assets\rules.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\DeckLogo\starter_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\DeckLogo\starter_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\language.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\accessibility.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\info.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

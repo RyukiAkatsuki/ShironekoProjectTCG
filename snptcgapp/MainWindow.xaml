@@ -5,15 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:snptcgapp"
         mc:Ignorable="d"
-        Title="MainWindow" 
+        Title="Shironeko Project TCG Database" 
         Height="700" 
         Width="1200"
-        WindowStyle="None"
-        AllowsTransparency="True"
-        WindowStartupLocation="CenterScreen">
-
+        WindowStartupLocation="CenterScreen"
+        Icon="Assets/logo_shironeko_pro_tcg.png">
 
     <Grid Background="#23262B">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
 
         <TextBlock Text="© Colopl - All right reserved" 
                    Foreground="#525965"
@@ -22,43 +24,109 @@
                    HorizontalAlignment="Right"
                    Margin="0,0,15,10"/>
 
-        <StackPanel Background="#2E333A"
-                    Width="220"
-                    Orientation="Vertical"
-                    HorizontalAlignment="Left">
-
-            <Grid Height="200"
-                  VerticalAlignment="Top"
-                  Margin="0,20,0,0">
-                <Image Source="Assets/logo_shironeko_pro_tcg.png"></Image>
-            </Grid>
-            <Menu Height="400"
-                  Background="Transparent"
-                  Margin="0,20,0,0">
-
-                <Menu.ItemsPanel>
-
-                    <ItemsPanelTemplate>
-
-                        <VirtualizingStackPanel Orientation="Vertical" />
-
-                    </ItemsPanelTemplate>
-
-                </Menu.ItemsPanel>
-
+        <StackPanel Grid.Column="0">
+            <Menu HorizontalAlignment="Stretch" VerticalAlignment="Top">
+                
+                <Menu.Resources>
+                    <Style TargetType="MenuItem">
+                        <Setter Property="Height" Value="30" />
+                        <Setter Property="HorizontalContentAlignment" Value="Center" />
+                        <Setter Property="VerticalContentAlignment" Value="Center" />
+                    </Style>
+                </Menu.Resources>
+                
                 <MenuItem Header="Home">
-
                     <MenuItem.Icon>
-
-                        <Image Source="Assets/icons8-home-50.png" 
-                               />
-
+                        <Image Source="Assets/home.png" />
                     </MenuItem.Icon>
-
                 </MenuItem>
-
+                <MenuItem Header="Card List">
+                    <MenuItem.Icon>
+                        <Image Source="Assets/back.jpg" />
+                    </MenuItem.Icon>
+                    <MenuItem Header="Deck List">
+                        <MenuItem Header="Starter Deck">
+                            <MenuItem Header="月と太陽のディスティニー">
+                                <MenuItem.Icon>
+                                    <Image Source="Assets/DeckLogo/starter_01.png"/>
+                                </MenuItem.Icon>
+                            </MenuItem>
+                            <MenuItem Header="スタートダッシュ！">
+                                <MenuItem.Icon>
+                                    <Image Source="Assets/DeckLogo/starter_02.png"/>
+                                </MenuItem.Icon>
+                            </MenuItem>
+                        </MenuItem>
+                        <MenuItem Header="Structure Deck">
+                            <MenuItem Header="真夏のDreamer">
+                                <MenuItem Header="01" />
+                                <MenuItem Header="02" />
+                            </MenuItem>
+                            <MenuItem Header="Others">
+                                <MenuItem Header="Doki Doki Sweet Halloween" />
+                                <MenuItem Header="Petit Paradise" />
+                            </MenuItem>
+                            <MenuItem Header="The Black Impact" />
+                        </MenuItem>
+                    </MenuItem>
+                    <MenuItem Header="Boosters">
+                        <MenuItem Header="1 - 冒険への旅立ち" />
+                        <MenuItem Header="2 - 託されし意志" />
+                        <MenuItem Header="3 - 橙光の一閃" />
+                        <MenuItem Header="4 - みんなでネコカ！私立茶熊学園" />
+                        <MenuItem Header="5 - 新月の覚醒者" />
+                        <MenuItem Header="6 - バーサス" />
+                        <MenuItem Header="7 - WORLD END -運命の光" />
+                        <MenuItem Header="8 - ネコフェス ～私立茶熊学園ネコカフェスティバル～" />
+                        <MenuItem Header="9 - ドーンブリンガー -夜明けを導く者-" />
+                        <MenuItem Header="10 - THRONES" />
+                        <MenuItem Header="11 - Majesty" />
+                        <MenuItem Header="12 - 冒険の先へ-Future of Adventure-" />
+                    </MenuItem>
+                    <MenuItem Header="All PR Card">
+                        <MenuItem Header="Almond Peak Collaboration Card" />
+                        <MenuItem Header="PR Card" />
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Glossary">
+                    <MenuItem.Icon>
+                        <Image Source="Assets/dictionary.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Rules">
+                    <MenuItem.Icon>
+                        <Image Source="Assets/rules.png" />
+                    </MenuItem.Icon>
+                    <MenuItem Header="Expert Rules" />
+                    <MenuItem Header="Expert Rules Tag" />
+                    <MenuItem Header="Friend Meeting Rules" />
+                    <MenuItem Header="Quick Manual" />
+                    <MenuItem Header="Rules" />
+                </MenuItem>
+                <MenuItem Header="Languages">
+                    <MenuItem.Icon>
+                        <Image Source="Assets/language.png" />
+                    </MenuItem.Icon>
+                    <MenuItem Header="Français" />
+                    <MenuItem Header="English" />
+                    <MenuItem Header="日本語" />
+                </MenuItem>
+                <MenuItem Header="Accessibility Option">
+                    <MenuItem.Icon>
+                        <Image Source="Assets/accessibility.png" />
+                    </MenuItem.Icon>
+                    <MenuItem Header="Daltonism" />
+                    <MenuItem Header="Dyslexia" />
+                </MenuItem>
+                <MenuItem Header="About">
+                    <MenuItem.Icon>
+                        <Image Source="Assets/info.png" />
+                    </MenuItem.Icon>
+                    <MenuItem Header="Colopl" />
+                    <MenuItem Header="This app" />
+                </MenuItem>
             </Menu>
-
         </StackPanel>
+
     </Grid>
 </Window>
