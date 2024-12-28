@@ -90,18 +90,66 @@
                         </MenuItem>
                     </MenuItem>
                     <MenuItem Header="Boosters">
-                        <MenuItem Header="1 - 冒険への旅立ち" />
-                        <MenuItem Header="2 - 託されし意志" />
-                        <MenuItem Header="3 - 橙光の一閃" />
-                        <MenuItem Header="4 - みんなでネコカ！私立茶熊学園" />
-                        <MenuItem Header="5 - 新月の覚醒者" />
-                        <MenuItem Header="6 - バーサス" />
-                        <MenuItem Header="7 - WORLD END -運命の光" />
-                        <MenuItem Header="8 - ネコフェス ～私立茶熊学園ネコカフェスティバル～" />
-                        <MenuItem Header="9 - ドーンブリンガー -夜明けを導く者-" />
-                        <MenuItem Header="10 - THRONES" />
-                        <MenuItem Header="11 - Majesty" />
-                        <MenuItem Header="12 - 冒険の先へ-Future of Adventure-" />
+                        <MenuItem Header="1 - 冒険への旅立ち">
+                            <MenuItem.Icon>
+                                <Image Source="Assets/BoosterLogo/booster_01.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="2 - 託されし意志">
+                            <MenuItem.Icon>
+                                <Image Source="Assets/BoosterLogo/booster_02.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="3 - 橙光の一閃">
+                            <MenuItem.Icon>
+                                <Image Source="Assets/BoosterLogo/booster_03.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="4 - みんなでネコカ！私立茶熊学園">
+                            <MenuItem.Icon>
+                                <Image Source="Assets/BoosterLogo/booster_04.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="5 - 新月の覚醒者">
+                            <MenuItem.Icon>
+                                <Image Source="Assets/BoosterLogo/booster_05.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="6 - バーサス">
+                            <MenuItem.Icon>
+                                <Image Source="Assets/BoosterLogo/booster_06.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="7 - WORLD END -運命の光">
+                            <MenuItem.Icon>
+                                <Image Source="Assets/BoosterLogo/booster_07.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="8 - ネコフェス ～私立茶熊学園ネコカフェスティバル～">
+                            <MenuItem.Icon>
+                                <Image Source="Assets/BoosterLogo/booster_08.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="9 - ドーンブリンガー -夜明けを導く者-">
+                            <MenuItem.Icon>
+                                <Image Source="Assets/BoosterLogo/booster_09.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="10 - THRONES">
+                            <MenuItem.Icon>
+                                <Image Source="Assets/BoosterLogo/booster_10.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="11 - Majesty">
+                            <MenuItem.Icon>
+                                <Image Source="Assets/BoosterLogo/booster_11.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="12 - 冒険の先へ-Future of Adventure-">
+                            <MenuItem.Icon>
+                                <Image Source="Assets/BoosterLogo/booster_12.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
                     </MenuItem>
                     <MenuItem Header="All PR Card">
                         <MenuItem Header="Almond Peak Collaboration Card" />

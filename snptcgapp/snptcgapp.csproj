@@ -103,6 +103,7 @@
     <Resource Include="Assets\logo_shironeko_pro_tcg.png" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Assets\BoosterList\" />
     <Folder Include="Fonts\" />
   </ItemGroup>
   <ItemGroup>
@@ -144,6 +145,42 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\DeckLogo\sd05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\BoosterLogo\booster_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\BoosterLogo\booster_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\BoosterLogo\booster_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\BoosterLogo\booster_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\BoosterLogo\booster_05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\BoosterLogo\booster_06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\BoosterLogo\booster_07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\BoosterLogo\booster_08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\BoosterLogo\booster_09.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\BoosterLogo\booster_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\BoosterLogo\booster_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\BoosterLogo\booster_12.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
