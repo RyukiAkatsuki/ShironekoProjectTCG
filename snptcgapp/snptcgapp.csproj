@@ -67,10 +67,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Templates.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -181,6 +177,14 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\BoosterLogo\booster_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\LanguagesFlag\france.png" />
+    <Resource Include="Assets\LanguagesFlag\jp.png" />
+    <Resource Include="Assets\LanguagesFlag\uk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\back_monschar.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

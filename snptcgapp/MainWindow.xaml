@@ -152,8 +152,19 @@
                         </MenuItem>
                     </MenuItem>
                     <MenuItem Header="All PR Card">
-                        <MenuItem Header="Almond Peak Collaboration Card" />
-                        <MenuItem Header="PR Card" />
+                        <MenuItem.Icon>
+                            <Image Source="Assets/back_monschar.jpg" />
+                        </MenuItem.Icon>
+                        <MenuItem Header="Almond Peak Collaboration Card">
+                            <MenuItem.Icon>
+                                <Image Source="Assets/back_monschar.jpg" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="PR Card">
+                            <MenuItem.Icon>
+                                <Image Source="Assets/back_monschar.jpg" />
+                            </MenuItem.Icon>
+                        </MenuItem>
                     </MenuItem>
                 </MenuItem>
                 <MenuItem Header="Glossary">
@@ -161,23 +172,55 @@
                         <Image Source="Assets/dictionary.png" />
                     </MenuItem.Icon>
                 </MenuItem>
-                <MenuItem Header="Rules">
+                <MenuItem Header="All Rules">
                     <MenuItem.Icon>
                         <Image Source="Assets/rules.png" />
                     </MenuItem.Icon>
-                    <MenuItem Header="Expert Rules" />
-                    <MenuItem Header="Expert Rules Tag" />
-                    <MenuItem Header="Friend Meeting Rules" />
-                    <MenuItem Header="Quick Manual" />
-                    <MenuItem Header="Rules" />
+                    <MenuItem Header="Expert Rules">
+                        <MenuItem.Icon>
+                            <Image Source="Assets/rules.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Expert Rules Tag">
+                        <MenuItem.Icon>
+                            <Image Source="Assets/rules.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Friend Meeting Rules">
+                        <MenuItem.Icon>
+                            <Image Source="Assets/rules.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Quick Manual">
+                        <MenuItem.Icon>
+                            <Image Source="Assets/rules.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Rules">
+                        <MenuItem.Icon>
+                            <Image Source="Assets/rules.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
                 </MenuItem>
                 <MenuItem Header="Languages">
                     <MenuItem.Icon>
                         <Image Source="Assets/language.png" />
                     </MenuItem.Icon>
-                    <MenuItem Header="Français" />
-                    <MenuItem Header="English" />
-                    <MenuItem Header="日本語" />
+                    <MenuItem Header="Français">
+                        <MenuItem.Icon>
+                            <Image Source="Assets/LanguagesFlag/france.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="English">
+                        <MenuItem.Icon>
+                            <Image Source="Assets/LanguagesFlag/uk.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="日本語">
+                        <MenuItem.Icon>
+                            <Image Source="Assets/LanguagesFlag/jp.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
                 </MenuItem>
                 <MenuItem Header="Accessibility Option">
                     <MenuItem.Icon>
@@ -196,5 +239,30 @@
             </Menu>
         </StackPanel>
 
+        <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Welcome to Shironeko Project TCG Database!" 
+                       Foreground="#e72222" 
+                       FontSize="32" 
+                       FontWeight="Bold" 
+                       TextAlignment="Center"
+                       Margin="0,0,0,60" />
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Image Source="Assets/logo_shironeko_pro_tcg.png" Width="150" Height="150" Margin="0,0,20,0"/>
+                <TextBlock Text="Explore cards, decks, their effect translated and much more!" 
+                           Foreground="#f0f0f0" 
+                           FontSize="18" 
+                           VerticalAlignment="Center" />
+            </StackPanel>
+            
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock Text="Card game made by:" 
+                           Foreground="#f0f0f0"
+                           FontSize="18"
+                           VerticalAlignment="Center"
+                           Margin="0,0,20,0"/>
+                <Image Source="Assets/logo_colopl.png" Width="150" Height="150"/>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Window>
