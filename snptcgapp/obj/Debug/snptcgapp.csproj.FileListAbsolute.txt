@@ -1,7 +1,6 @@
 C:\Users\shawn\source\repos\RyukiAkatsuki\ShironekoProjectTCG\snptcgapp\bin\Debug\snptcgapp.exe.config
 C:\Users\shawn\source\repos\RyukiAkatsuki\ShironekoProjectTCG\snptcgapp\bin\Debug\snptcgapp.exe
 C:\Users\shawn\source\repos\RyukiAkatsuki\ShironekoProjectTCG\snptcgapp\bin\Debug\snptcgapp.pdb
-C:\Users\shawn\source\repos\RyukiAkatsuki\ShironekoProjectTCG\snptcgapp\obj\Debug\Templates.baml
 C:\Users\shawn\source\repos\RyukiAkatsuki\ShironekoProjectTCG\snptcgapp\obj\Debug\MainWindow.g.cs
 C:\Users\shawn\source\repos\RyukiAkatsuki\ShironekoProjectTCG\snptcgapp\obj\Debug\App.g.cs
 C:\Users\shawn\source\repos\RyukiAkatsuki\ShironekoProjectTCG\snptcgapp\obj\Debug\snptcgapp_MarkupCompile.cache
@@ -14,3 +13,9 @@ C:\Users\shawn\source\repos\RyukiAkatsuki\ShironekoProjectTCG\snptcgapp\obj\Debu
 C:\Users\shawn\source\repos\RyukiAkatsuki\ShironekoProjectTCG\snptcgapp\obj\Debug\snptcgapp.exe
 C:\Users\shawn\source\repos\RyukiAkatsuki\ShironekoProjectTCG\snptcgapp\obj\Debug\snptcgapp.pdb
 C:\Users\shawn\source\repos\RyukiAkatsuki\ShironekoProjectTCG\snptcgapp\obj\Debug\snptcgapp.csproj.AssemblyReference.cache
+C:\Users\shawn\source\repos\RyukiAkatsuki\ShironekoProjectTCG\snptcgapp\obj\Debug\Pages\Homepage.baml
+C:\Users\shawn\source\repos\RyukiAkatsuki\ShironekoProjectTCG\snptcgapp\obj\Debug\Pages\SunAndMoonDeck.baml
+C:\Users\shawn\source\repos\RyukiAkatsuki\ShironekoProjectTCG\snptcgapp\obj\Debug\Pages\Homepage.g.cs
+C:\Users\shawn\source\repos\RyukiAkatsuki\ShironekoProjectTCG\snptcgapp\obj\Debug\Pages\SunAndMoonDeck.g.cs
+C:\Users\shawn\source\repos\RyukiAkatsuki\ShironekoProjectTCG\snptcgapp\obj\Debug\Pages\StartDashDeck.baml
+C:\Users\shawn\source\repos\RyukiAkatsuki\ShironekoProjectTCG\snptcgapp\obj\Debug\Pages\StartDashDeck.g.cs

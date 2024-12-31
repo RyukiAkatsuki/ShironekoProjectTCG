@@ -15,14 +15,29 @@ using System.Windows.Shapes;
 
 namespace snptcgapp
 {
-    /// <summary>
-    /// Logique d'interaction pour MainWindow.xaml
-    /// </summary>
+
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+
+            _ = MainFrame.Navigate(new Homepage());
+        }
+
+        private void MenuItem_Home_Click(object sender, RoutedEventArgs e)
+        {
+            _ = MainFrame.Navigate(new Homepage());
+        }
+
+        private void MenuItem_SunAndMoon_Click(object sender, RoutedEventArgs e)
+        {
+            _ = MainFrame.Navigate(new SunAndMoonDeck());
+        }
+
+        private void MenuItem_StartDash_Click(object sender, RoutedEventArgs e)
+        {
+            _ = MainFrame.Navigate(new StartDashDeck());
         }
     }
 }

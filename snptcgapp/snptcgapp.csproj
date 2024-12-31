@@ -55,6 +55,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Pages\StartDashDeck.xaml.cs">
+      <DependentUpon>StartDashDeck.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SunAndMoonDeck.xaml.cs">
+      <DependentUpon>SunAndMoonDeck.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Pages\Homepage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -63,10 +73,19 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Pages\Homepage.xaml.cs">
+      <DependentUpon>Homepage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\StartDashDeck.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </Page>
+    <Page Include="Pages\SunAndMoonDeck.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -101,6 +120,7 @@
   <ItemGroup>
     <Folder Include="Assets\BoosterList\" />
     <Folder Include="Fonts\" />
+    <Folder Include="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\home.png" />
@@ -185,6 +205,59 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\back_monschar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\StarterDeckList\SunAndMoon\ST_001.png" />
+    <Resource Include="Assets\StarterDeckList\SunAndMoon\ST_002.png" />
+    <Resource Include="Assets\StarterDeckList\SunAndMoon\ST_003.png" />
+    <Resource Include="Assets\StarterDeckList\SunAndMoon\ST_004.png" />
+    <Resource Include="Assets\StarterDeckList\SunAndMoon\ST_005.png" />
+    <Resource Include="Assets\StarterDeckList\SunAndMoon\ST_006.png" />
+    <Resource Include="Assets\StarterDeckList\SunAndMoon\ST_007.png" />
+    <Resource Include="Assets\StarterDeckList\SunAndMoon\ST_008.png" />
+    <Resource Include="Assets\StarterDeckList\SunAndMoon\ST_009.png" />
+    <Resource Include="Assets\StarterDeckList\SunAndMoon\ST_010.png" />
+    <Resource Include="Assets\StarterDeckList\SunAndMoon\ST_011.png" />
+    <Resource Include="Assets\StarterDeckList\SunAndMoon\ST_012.png" />
+    <Resource Include="Assets\StarterDeckList\SunAndMoon\ST_013.png" />
+    <Resource Include="Assets\StarterDeckList\SunAndMoon\ST_014.png" />
+    <Resource Include="Assets\StarterDeckList\SunAndMoon\ST_015.png" />
+    <Resource Include="Assets\StarterDeckList\SunAndMoon\ST_016.png" />
+    <Resource Include="Assets\StarterDeckList\SunAndMoon\ST_017.png" />
+    <Resource Include="Assets\StarterDeckList\SunAndMoon\ST_018.png" />
+    <Resource Include="Assets\StarterDeckList\SunAndMoon\ST_019.png" />
+    <Resource Include="Assets\StarterDeckList\SunAndMoon\ST_020.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-001.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-002.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-003.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-004.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-005.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-006.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-007.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-008.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-009.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-010.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-011.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-012.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-013.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-014.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-015.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-016.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-017.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-018.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-019.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-020.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-021.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-022.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-023.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-024.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-025.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-026.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-027.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-028.png" />
+    <Resource Include="Assets\StarterDeckList\StartDash\ST02-029.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

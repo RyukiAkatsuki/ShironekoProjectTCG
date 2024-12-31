@@ -1,0 +1,32 @@
+﻿<Page x:Class="snptcgapp.Homepage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Welcome to Shironeko Project TCG Database!" 
+                       Foreground="#e72222" 
+                       FontSize="32" 
+                       FontWeight="Bold" 
+                       TextAlignment="Center"
+                       Margin="0,0,0,60" />
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Image Source="../Assets/logo_shironeko_pro_tcg.png" Width="150" Height="150" Margin="0,0,20,0"/>
+                <TextBlock Text="Explore cards, decks, their effect translated and much more!" 
+                           Foreground="#f0f0f0" 
+                           FontSize="18" 
+                           VerticalAlignment="Center" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock Text="Card game made by:" 
+                           Foreground="#f0f0f0"
+                           FontSize="18"
+                           VerticalAlignment="Center"
+                           Margin="0,0,20,0"/>
+                <Image Source="../Assets/logo_colopl.png" Width="150" Height="150"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

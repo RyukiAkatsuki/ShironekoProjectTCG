@@ -34,8 +34,8 @@
                         <Setter Property="VerticalContentAlignment" Value="Center" />
                     </Style>
                 </Menu.Resources>
-                
-                <MenuItem Header="Home">
+
+                <MenuItem Header="Home" Click="MenuItem_Home_Click">
                     <MenuItem.Icon>
                         <Image Source="Assets/home.png" />
                     </MenuItem.Icon>
@@ -46,12 +46,12 @@
                     </MenuItem.Icon>
                     <MenuItem Header="Deck List">
                         <MenuItem Header="Starter Deck">
-                            <MenuItem Header="月と太陽のディスティニー">
+                            <MenuItem Header="月と太陽のディスティニー" Click="MenuItem_SunAndMoon_Click">
                                 <MenuItem.Icon>
                                     <Image Source="Assets/DeckLogo/starter_01.png"/>
                                 </MenuItem.Icon>
                             </MenuItem>
-                            <MenuItem Header="スタートダッシュ！">
+                            <MenuItem Header="スタートダッシュ！" Click="MenuItem_StartDash_Click">
                                 <MenuItem.Icon>
                                     <Image Source="Assets/DeckLogo/starter_02.png"/>
                                 </MenuItem.Icon>
@@ -228,6 +228,8 @@
                     </MenuItem.Icon>
                     <MenuItem Header="Daltonism" />
                     <MenuItem Header="Dyslexia" />
+                    <MenuItem Header="Left Eye Blindness" />
+                    <MenuItem Header="Right Eye Blindness" />
                 </MenuItem>
                 <MenuItem Header="About">
                     <MenuItem.Icon>
@@ -239,30 +241,6 @@
             </Menu>
         </StackPanel>
 
-        <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <TextBlock Text="Welcome to Shironeko Project TCG Database!" 
-                       Foreground="#e72222" 
-                       FontSize="32" 
-                       FontWeight="Bold" 
-                       TextAlignment="Center"
-                       Margin="0,0,0,60" />
-
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                <Image Source="Assets/logo_shironeko_pro_tcg.png" Width="150" Height="150" Margin="0,0,20,0"/>
-                <TextBlock Text="Explore cards, decks, their effect translated and much more!" 
-                           Foreground="#f0f0f0" 
-                           FontSize="18" 
-                           VerticalAlignment="Center" />
-            </StackPanel>
-            
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                <TextBlock Text="Card game made by:" 
-                           Foreground="#f0f0f0"
-                           FontSize="18"
-                           VerticalAlignment="Center"
-                           Margin="0,0,20,0"/>
-                <Image Source="Assets/logo_colopl.png" Width="150" Height="150"/>
-            </StackPanel>
-        </StackPanel>
+        <Frame x:Name="MainFrame" Grid.Row="1" NavigationUIVisibility="Hidden" />
     </Grid>
 </Window>

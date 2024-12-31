@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\shawn\source\repos\RyukiAkatsuki\ShironekoProjectTCG\snptcgapp\App.xaml
-21811991460
+4787841184
 
-5-2017746502
+8-1372551369
 13152784993
-MainWindow.xaml;Templates.xaml;
+Pages\Homepage.xaml;MainWindow.xaml;Pages\StartDashDeck.xaml;Pages\SunAndMoonDeck.xaml;
 
 False
 
